@@ -7,7 +7,7 @@
 ![Change node](./images/change-node-palette.png)
 4.	Wire the http node output port to the change node input port.   
 ![Change node wire](./images/change-wire-one.png)
-5.	Set the payload to a custom message of your choice and click the red Done button.   
+5.	Double click on the change node and set the payload to a custom message of your choice then click the red Done button.   
 ![Change node config](./images/change-node-config.png)
 6.	Insert an http response node. Http response nodes can be found under the output category of the palette.   
 ![HTTP Response node](./images/http-response-node-palette.png)
