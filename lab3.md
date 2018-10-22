@@ -23,3 +23,23 @@
 ![Click inject node](./images/click-inject-node-red.png)
 12. Note how your Pi's SenseHAT changes to red!   
 ![WHOA](https://media.giphy.com/media/xT0xeJpnrWC4XWblEk/giphy.gif)
+13. Insert 4 additional inject nodes.   
+![Inject node](./images/inject-node-palette.png)
+14. Double click one inject node and set it's payload to the string   
+ ```*,0,red,*,2,red,*,4,red,*,6,red```   
+Name the node "Red" then click the Done button.   
+15. Double click a non named inject node and set it's payload to the string   
+ ```*,1,white,*,3,white,*,5,white,*,7,white```   
+Name the node "White" then click the Done button.   
+16. Double click a non named inject node and set it's payload to the string   
+ ```0-3,0-2,blue```   
+Name the node "Blue" then click the Done button.   
+17. Double click a non named inject node and set it's payload to a string of your choice   
+```Know the earth, show the way, understand the world```   
+Name the node "Message" then click the Done button.
+17. Wire the output ports of the "Red", "White", "Blue", and "Message" inject nodes to the input port of the Sense HAT output node.
+18. Click on the inject nodes in this order: 
+  1. Red
+  2. White
+  3. Blue
+19. Now click on the Message inject node.
