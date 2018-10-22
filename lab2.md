@@ -1,11 +1,21 @@
 # Lab 2: Going Online with HTTP
-1.	Insert a http input node
-2.	Double click on the http input node and set the URL property to welcome
-3.	Insert a change node. Change nodes can be found under the function category of the palette.
-4.	Wire the http node output port to the change node input port
-5.	Set the payload to a custom message of your choice
-6.	Insert an http response node. Http response nodes can be found under the output category of the palette.
-7.	Wire the change node output port to the http response node input port.
-8.	Deploy your updated flow.
-9.	Using a web browser, access {YOUR_NODE_IP}:1800/welcome
-10.	You should see your custom message displayed in the browser window.
+1.	Insert a http input node.   
+![Inject Node](./images/inject-node-palette.png)
+2.	Double click on the http input node and set the URL property to welcome.   
+![Http input config](./images/http-input-node-config.png)
+3.	Insert a change node. Change nodes can be found under the function category of the palette.   
+![Change node](./images/change-node-palette.png)
+4.	Wire the http node output port to the change node input port.   
+![Change node wire](./images/change-wire-one.png)
+5.	Set the payload to a custom message of your choice and click the red Done button.   
+![Change node config](./images/change-node-config.png)
+6.	Insert an http response node. Http response nodes can be found under the output category of the palette.   
+![HTTP Response node](./images/http-response-node-palette.png)
+7.	Wire the change node output port to the http response node input port.   
+![Change node wire](./images/change-wire-two.png)
+8.	Deploy your updated flow.   
+![Deploy button](./images/deploy-button.png)
+9.	Using a web browser, access {YOUR_NODE_IP}:1800/welcome to trigger your flow.   
+![URL](./images/welcome-url.png)
+10.	You should see your custom message displayed in the browser window.   
+![HTTP Response](./images/welcome-response.png)

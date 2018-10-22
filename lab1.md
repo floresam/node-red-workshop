@@ -14,13 +14,13 @@
 8.	Click on the debug tab in the information pane to see what was received by the debug node.  
 ![Debug pane](./images/debug-pane.png)
 ![Debug data](./images/debug-inject.png)
-9.	Configure the debug node to show the entire message. To open a node's configuration, double click on the node. Set the debug node's output property to "complete message object".  
+9.	Configure the debug node to show the entire message. To open a node's configuration, double click on the node. Set the debug node's output property to "complete message object" then click the red Done button.  
 ![Debug node config](./images/debug-node-config.png)
 10.	Deploy the updated flow by clicking on the red Deploy button.  
 ![Deploy button](./images/deploy-button.png)
 11.	Click on the inject node to send data.  
 ![Inject Node click](./images/click-inject-node.png)
-12.	Look at the whole message object now displayed in the debug pane.
+12.	Look at the whole message object now displayed in the debug pane.   
 ![Debug data](./images/debug-inject-wholemsg.png)
 13.	Add a function node to your flow. The function node is under the function category.  
 ![Function node](./images/change-node-palette.png)
