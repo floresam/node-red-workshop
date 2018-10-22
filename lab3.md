@@ -22,4 +22,4 @@
 11.	Trigger the inject node by clicking on it.   
 ![Click inject node](./images/click-inject-node-red.png)
 12. Note how your Pi's SenseHAT changes to red!   
-![WHOA](http://gph.is/2AmePHo)
+![WHOA](https://media.giphy.com/media/xT0xeJpnrWC4XWblEk/giphy.gif)
