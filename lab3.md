@@ -13,7 +13,7 @@
 ![SenseHAT output node](./images/pi-node-palette.png)
 7.	Insert an inject node.   
 ![Inject node](./images/inject-node-palette.png)
-8.	Set the inject node’s payload to the string “*,*,red”   
+8.	Double click on the inject node and set the inject node’s payload to the string “*,*,red” then click the Done button.   
 ![Inject node config](./images/inject-node-config.png)
 9.	Wire the inject node’s output port to the Sense HAT output nodes input port.   
 ![Inject wired to SenseHAT](./images/red-wire-pi.png)
