@@ -50,12 +50,14 @@ Bonus round: Let's take it online!!
 1. Insert an http input node, a function node, an http output node, and a Sense HAT output node.
 2. Configure the http input node with a URL of "*"
 3. Configure the function node to have the following code   
-```var url = msg.req.originalUrl;
-msg.payload = url;
-if(url === "/Red") { msg.payload = "*,*,Red" }
+```
+var url = msg.req.originalUrl;
+msg.payload = url;if(url === "/Red") { msg.payload = "*,*,Red" }
 if(url === "/White") { msg.payload = "*,*,White" }
 if(msg === "/Blue") { msg.payload = "*,*,Blue" }
-return msg;```   
+return msg;
+```
+
 4. Wire the http input node to the function node.
 5. Wire the function node to the http output node.
 6. Wire the function node to the Snse HAT output node.
