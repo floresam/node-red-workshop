@@ -54,7 +54,7 @@ Bonus round: Let's take it online!!
 var url = msg.req.originalUrl;
 msg.payload = url;if(url === "/Red") { msg.payload = "*,*,Red" }
 if(url === "/White") { msg.payload = "*,*,White" }
-if(msg === "/Blue") { msg.payload = "*,*,Blue" }
+if(url === "/Blue") { msg.payload = "*,*,Blue" }
 return msg;
 ```
 
