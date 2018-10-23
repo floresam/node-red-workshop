@@ -1,7 +1,7 @@
 # Lab 2: Going Online with HTTP
 1.	Insert a http input node.   
 ![Inject Node](./images/inject-node-palette.png)
-2.	Double click on the http input node and set the URL property to welcome.   
+2.	Double click on the http input node and set the URL property to "/welcome".   
 ![Http input config](./images/http-input-node-config.png)
 3.	Insert a change node. Change nodes can be found under the function category of the palette.   
 ![Change node](./images/change-node-palette.png)
