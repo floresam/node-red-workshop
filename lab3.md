@@ -55,7 +55,7 @@ msg.payload = url;
 if(url === "/Red") { msg.payload = "*,*,Red" }
 if(url === "/White") { msg.payload = "*,*,White" }
 if(msg === "/Blue") { msg.payload = "*,*,Blue" }
-return msg;```
+return msg;```   
 4. Wire the http input node to the function node.
 5. Wire the function node to the http output node.
 6. Wire the function node to the Snse HAT output node.
