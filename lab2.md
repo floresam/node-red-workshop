@@ -19,3 +19,6 @@
 ![URL](./images/welcome-url.png)
 10.	You should see your custom message displayed in the browser window.   
 ![HTTP Response](./images/welcome-response.png)
+
+If you want to see the completed lab, import the following code   
+```[{"id":"a453d6e5.4c4348","type":"tab","label":"Flow 1"},{"id":"701048c3.b8d2e8","type":"http in","z":"a453d6e5.4c4348","name":"","url":"welcome","method":"get","upload":false,"swaggerDoc":"","x":200,"y":1200,"wires":[["3218623d.88e11e"]]},{"id":"c3bff1fe.35b28","type":"http response","z":"a453d6e5.4c4348","name":"","statusCode":"","headers":{},"x":590,"y":1200,"wires":[]},{"id":"3218623d.88e11e","type":"change","z":"a453d6e5.4c4348","name":"","rules":[{"t":"set","p":"payload","pt":"msg","to":"Welcome to my site!","tot":"str"}],"action":"","property":"","from":"","to":"","reg":false,"x":400,"y":1200,"wires":[["c3bff1fe.35b28"]]}]```
